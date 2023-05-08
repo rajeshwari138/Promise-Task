@@ -1,0 +1,460 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* background-color: black; */
+    scroll-behavior: smooth;
+    
+}
+
+
+@media screen and (max-width:700px) {
+    
+    .full{
+        scroll-behavior: smooth;
+        /* margin-top: 20px; */
+        /* border: 2px solid black; */
+        display: grid;
+        grid-template: 
+        "side  head head"
+        "side main main"
+        ;
+    }
+    .titles{
+        padding: 5px;
+        /* margin-top: 1px; */
+        margin-left: 28px;
+    }
+   
+    .header{
+        background-color: rgb(255, 252, 252);
+        grid-area: head;
+        text-align: center !important;
+        /* border: 2px solid black; */
+    }
+    .side-div{
+        background-color: rgb(248, 235, 235) ;
+        font-size:17px;
+        /* border: 2px solid black; */
+        grid-area: side;
+        width: 170px;
+        /* margin :10px; */
+        /* padding: 10px; */
+        /* background-color: red; */
+        height: 99vh;
+        scroll-behavior: smooth;
+        position: fixed;
+        overflow: scroll;
+        /* margin: 0; */
+        
+        /* display: flex; */
+        /* flex-wrap: wrap;
+        align-items: center; */
+        
+    }
+    .main-div{
+        background-color: rgb(255, 252, 252) ;
+        /* border: 2px solid black; */
+        grid-area: main;
+        /* background-color: rgb(251, 255, 0); */
+        height: auto;
+        /* padding-left: 10px; */
+        width: 64%;
+        margin-left: 170px;
+        margin-right: 0;
+        overflow-x: scroll;
+    }
+    
+    .artist{
+        padding-left: 35px;
+        /* margin: 10px; */
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+    .history{
+        padding-left: 35px;
+        /* margin: 10px; */
+        margin-top: 3px;
+        margin-bottom: 50px;
+    }
+    h4{
+        margin-top: 0px;
+        padding-left: 10px;
+    }
+    h2{
+        /* margin-top: 60px; */
+        text-align: center;
+    }
+    .side-bar-title{
+        margin-top: 40px ;
+        /* border: 2px solid black; */
+    }
+    h1{
+        /* text-align: center; */
+        margin: 10px;
+        padding-left: 35%;
+        /* position: fixed; */
+    }
+    
+    h3{
+        padding: 0;
+        /* border: 2px solid black; */
+        margin-top: 5px;
+        margin-left: 3px;
+    }
+    li{
+        margin-top: 15px;
+        
+    }
+    a,li{
+        text-decoration: none;
+        color: rgb(231, 89, 89);
+        font-weight: bold;
+    }
+    a:hover,li:hover{
+        color: rgb(248, 6, 6);
+    }
+    
+}
+
+
+
+/*                 media screen at min-width:701  max-width:900                   */
+
+@media screen and (min-width:701px) and (max-width:900px) {
+    
+    .full{
+        scroll-behavior: smooth;
+        /* margin-top: 20px; */
+        /* border: 2px solid black; */
+        display: grid;
+        grid-template: 
+        "side  head head"
+        "side main main"
+        ;
+    }
+    .titles{
+        padding: 5px;
+        /* margin-top: 1px; */
+        margin-left: 28px;
+    }
+   
+    .header{
+        background-color: rgb(255, 252, 252);
+        grid-area: head;
+        text-align: center !important;
+        /* border: 2px solid black; */
+    }
+    .side-div{
+        background-color: rgb(248, 235, 235) ;
+        font-size:17px;
+        /* border: 2px solid black; */
+        grid-area: side;
+        width: 190px;
+        /* margin :10px; */
+        /* padding: 10px; */
+        /* background-color: red; */
+        height: 99vh;
+        scroll-behavior: smooth;
+        position: fixed;
+        overflow: scroll;
+        /* margin: 0; */
+        
+        /* display: flex; */
+        /* flex-wrap: wrap;
+        align-items: center; */
+        
+    }
+    .main-div{
+        background-color: rgb(255, 252, 252) ;
+        /* border: 2px solid black; */
+        grid-area: main;
+        /* background-color: rgb(251, 255, 0); */
+        height: auto;
+        /* padding-left: 10px; */
+        width: 74%;
+        margin-left: 170px;
+        margin-right: 0;
+        overflow-x: scroll;
+    }
+    
+    .artist{
+        padding-left: 45px;
+        /* margin: 10px; */
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+    .history{
+        padding-left: 45px;
+        /* margin: 10px; */
+        margin-top: 3px;
+        margin-bottom: 50px;
+    }
+    h4{
+        margin-top: 0px;
+        padding-left: 30px;
+    }
+    h2{
+        padding-left: 30px;
+        text-align: center;
+    }
+    .side-bar-title{
+        margin-top: 40px ;
+        /* border: 2px solid black; */
+    }
+    h1{
+        text-align: center;
+        margin: 10px;
+        padding-left: 30%;
+        /* position: fixed; */
+    }
+    
+    h3{
+        padding: 0;
+        /* border: 2px solid black; */
+        margin-top: 5px;
+        margin-left: 3px;
+    }
+    li{
+        margin-top: 15px;
+        
+    }
+    a,li{
+        text-decoration: none;
+        color: rgb(231, 89, 89);
+        font-weight: bold;
+    }
+    a:hover,li:hover{
+        color: rgb(248, 6, 6);
+    }
+    
+}
+
+
+
+/*                 media screen at min-width:901  max-width:1200                   */
+
+
+
+@media screen and (min-width:901px) and (max-width:1200px) {
+    
+    .full{
+        scroll-behavior: smooth;
+        /* margin-top: 20px; */
+        /* border: 2px solid black; */
+        display: grid;
+        grid-template: 
+        "side  head head"
+        "side main main"
+        ;
+    }
+    .titles{
+        padding: 5px;
+        /* margin-top: 1px; */
+        margin-left: 28px;
+    }
+   
+    .header{
+        background-color: rgb(255, 252, 252);
+        grid-area: head;
+        text-align: center !important;
+        /* border: 2px solid black; */
+    }
+    .side-div{
+        background-color: rgb(248, 235, 235) ;
+        font-size:17px;
+        /* border: 2px solid black; */
+        grid-area: side;
+        width: 220px;
+        /* margin :10px; */
+        /* padding: 10px; */
+        /* background-color: red; */
+        height: 99vh;
+        scroll-behavior: smooth;
+        position: fixed;
+        overflow: scroll;
+        /* margin: 0; */
+        
+        /* display: flex; */
+        /* flex-wrap: wrap;
+        align-items: center; */
+        
+    }
+    .main-div{
+        background-color: rgb(255, 252, 252) ;
+        /* border: 2px solid black; */
+        grid-area: main;
+        /* background-color: rgb(251, 255, 0); */
+        height: auto;
+        /* padding-left: 10px; */
+        width: 80%;
+        margin-left: 170px;
+        margin-right: 0;
+        overflow-x: scroll;
+    }
+    
+    .artist{
+        padding-left: 75px;
+        /* margin: 10px; */
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+    .history{
+        padding-left: 75px;
+        /* margin: 10px; */
+        margin-top: 3px;
+        margin-bottom: 50px;
+    }
+    h4{
+        margin-top: 0px;
+        padding-left: 60px;
+    }
+    h2{
+        padding-left: 30px;
+        text-align: center;
+    }
+    .side-bar-title{
+        margin-top: 40px ;
+        /* border: 2px solid black; */
+    }
+    h1{
+        text-align: center;
+        margin: 10px;
+        padding-left: 25%;
+        /* position: fixed; */
+    }
+    
+    h3{
+        padding: 0;
+        /* border: 2px solid black; */
+        margin-top: 5px;
+        margin-left: 3px;
+    }
+    li{
+        margin-top: 15px;
+        
+    }
+    a,li{
+        text-decoration: none;
+        color: rgb(231, 89, 89);
+        font-weight: bold;
+    }
+    a:hover,li:hover{
+        color: rgb(248, 6, 6);
+    }
+    
+}
+
+
+
+/*                 media screen at min-width:1201                   */
+
+
+@media screen and (min-width:1201px) {
+    
+    .full{
+        scroll-behavior: smooth;
+        /* margin-top: 20px; */
+        /* border: 2px solid black; */
+        display: grid;
+        grid-template: 
+        "side  head head"
+        "side main main"
+        ;
+    }
+    .titles{
+        padding: 5px;
+        /* margin-top: 1px; */
+        margin-left: 28px;
+    }
+   
+    .header{
+        background-color: rgb(255, 252, 252);
+        grid-area: head;
+        text-align: center !important;
+        /* border: 2px solid black; */
+    }
+    .side-div{
+        background-color: rgb(248, 235, 235) ;
+        font-size:17px;
+        /* border: 2px solid black; */
+        grid-area: side;
+        width: 250px;
+        /* margin :10px; */
+        /* padding: 10px; */
+        /* background-color: red; */
+        height: 99vh;
+        scroll-behavior: smooth;
+        position: fixed;
+        overflow: scroll;
+        padding: 10px;
+        /* margin: 0; */
+        
+        /* display: flex; */
+        /* flex-wrap: wrap;
+        align-items: center; */
+        
+    }
+    .main-div{
+        background-color: rgb(255, 252, 252) ;
+        /* border: 2px solid black; */
+        grid-area: main;
+        /* background-color: rgb(251, 255, 0); */
+        height: auto;
+        /* padding-left: 10px; */
+        width: 85%;
+        margin-left: 170px;
+        margin-right: 0;
+        overflow-x: scroll;
+    }
+    
+    .artist{
+        padding-left: 145px;
+        /* margin: 10px; */
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+    .history{
+        padding-left: 145px;
+        /* margin: 10px; */
+        margin-top: 3px;
+        margin-bottom: 50px;
+    }
+    h4{
+        margin-top: 0px;
+        padding-left: 110px;
+    }
+    h2{
+        padding-left: 30px;
+        text-align: center;
+    }
+    .side-bar-title{
+        margin-top: 40px ;
+        /* border: 2px solid black; */
+    }
+    h1{
+        text-align: center;
+        margin: 10px;
+        padding-left: 25%;
+        /* position: fixed; */
+    }
+    
+    h3{
+        padding: 0;
+        /* border: 2px solid black; */
+        margin-top: 5px;
+        margin-left: 3px;
+    }
+    li{
+        margin-top: 15px;
+        
+    }
+    a,li{
+        text-decoration: none;
+        color: rgb(231, 89, 89);
+        font-weight: bold;
+    }
+    a:hover,li:hover{
+        color: rgb(248, 6, 6);
+    }
+    
+}
